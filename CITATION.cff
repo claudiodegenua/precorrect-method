@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you refer to this methodology, please cite it as below."
+title: "precorrect - method: a deterministic detector for how LLMs handle contested claims"
+abstract: >-
+  A methodology repository. It documents the five-outcome taxonomy (affirm / deny / evade /
+  disqualify / distort) used to classify how a generated text positions itself toward a contested
+  claim, the split between a form verdict computed from grammatical and discourse slots with zero
+  LLM calls and a separate source-grounded content verdict, the pre-registered blind evaluation
+  protocol with hash-frozen predictions, the rules governing rule adoption and human arbitration,
+  and the generative-AI provenance posture. It contains no executable code, no benchmark cells and
+  no knowledge base; the figures it reports are declared results of a private research project and
+  are not reproducible from this repository.
+type: dataset
+authors:
+  - given-names: Claudio
+    family-names: "De Genua"
+    orcid: "https://orcid.org/0009-0008-5896-3172"
+    affiliation: "Independent researcher (TeoCentro, the author's own publishing project)"
+    email: claudiodegenua@gmail.com
+repository-code: "https://github.com/claudiodegenua/precorrect-method"
+license: CC-BY-SA-4.0
+version: "1.0.0"
+date-released: "2026-09-03"
+keywords:
+  - llm-evaluation
+  - methodology
+  - benchmark
+  - nlp
+  - italian
+  - honesty
+  - hallucination
+  - pre-registration
